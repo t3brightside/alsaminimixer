@@ -149,7 +149,7 @@ show_volumes() {
         fi
 
         perc_text=$([ $Muted = true ] && echo "M" || echo "${perc_int}%")
-        lines+=("$(printf "%-12s : |%s| %5s" "$ch" "$bar_text" "$perc_text")")
+        lines+=("$(printf "%-12s   |%s| %5s" "$ch" "$bar_text" "$perc_text")")
     done
 
     lines+=("")
