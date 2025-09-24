@@ -212,7 +212,7 @@ prev_cols=$(tput cols)
             clear
             show_volumes
         fi
-        sleep 0.1
+        sleep 1
     done
 } &
 
@@ -226,7 +226,7 @@ while true; do
     
     # Non-blocking read of a single key with a timeout
     # This allows the loop to continue and update the Hz
-    IFS= read -rsn1 -t 0.1 key || continue
+    IFS= read -rsn1 -t 5 key || continue
 
     # Handle arrow keys (multi-byte escape sequences)
     if [[ $key == $'\x1b' ]]; then
