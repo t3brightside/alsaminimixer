@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ======================================================
-#                  by t3brightside.com
+#                  © Tanel PÕld t3brightside.com
 # ======================================================
 
 # Headless mini-mixer for Alsa main outputs (linked) of a set card
