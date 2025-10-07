@@ -9,11 +9,13 @@
 
 * Headless Operation: Control your audio without a graphical interface, perfect for systems where a GUI isn't necessary or desired.
 
+* Multichannel setup
+
 * Linked Channel Control: Adjust the volume of all specified output channels simultaneously using a single command.
 
 * Real-time Monitoring: The script displays the current volume levels and the audio sample rate (Hz) of the active stream, with timely updates.
 
-* Simple Controls: Use the left/right arrow keys to fine-tune the volume, or use the number keys (0-9) for quick volume jumps (0% to 90%). You can also toggle mute with the 'M' key.
+* Simple Controls: Use the left/right arrow keys to fine-tune the volume, or use the number keys (0-9) for quick volume jumps (0% to 90%). You can also toggle mute and solo with the 'M' & 'S' keys.
 
 * Set limit to the maximum volume using % of the maximum hardware volume.
 
